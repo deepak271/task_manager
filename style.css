@@ -1,0 +1,80 @@
+.cont{
+    border: 1px solid red;
+    width: 380px;
+    margin: 100px auto;
+  
+}
+.area1{
+    height: 150px;
+    border: 1px solid blue;
+    background-image: url('./image/img1.jpg');
+    background-size: 380px;
+    background-size: 100% 100%;
+    position: relative;
+}
+.area2{
+    height: 280px;
+    border: 1px solid blue; 
+}
+.area3{
+   
+    border: 1px solid brown;
+    position: relative;
+}
+.cls{
+    float: right;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.time{
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    color: chartreuse;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.area2 div{
+    display: inline;
+    border: 1px solid rgb(43, 43, 111);
+}
+.area3 div{
+    display: inline;
+}
+.check{
+    height: 25px;
+    width: 20px;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+.disc{
+    height: 25px;
+    width: 300px;
+    float: left;
+    padding: 10px 5px 0 15px;
+}
+.del{
+    height: 28px;
+    width: 20px;
+    float: left;
+    padding: 5px 0px 0px 0px;
+   cursor: pointer;
+}
+.add{
+    height: 30px;
+    width: 30px;
+    float:left;
+    cursor: pointer;
+}
+.inp input{
+    height: 25px; 
+    width: 89.5%;
+}
