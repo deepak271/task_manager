@@ -78,3 +78,6 @@ ul{
     height: 25px; 
     width: 89.5%;
 }
+.line{
+    text-decoration: line-through;
+}
